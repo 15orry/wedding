@@ -158,6 +158,10 @@ header{width: 100%; height: 60px;
     width: 50px; height: 60px;
     filter: brightness(0) invert(100%);
 }
+#slider ul li label img:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
 #slider input#first_r:checked ~ .frame{margin-left: -100%;}
 #slider input#second_l:checked ~ .frame{margin-left: 0%;}
 #slider input#second_r:checked ~ .frame{margin-left: -200%;}
@@ -652,7 +656,9 @@ section#review .dark .wrap .cont .box .txt_part p{
     border-radius: 4px;
     font-size: 20px; color: #fff;
 }
-
+#invitation .wrap .resWrap a:hover{
+    background-color: #ce805a;
+}
 
 
 /* section - partners */
